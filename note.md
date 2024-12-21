@@ -1,4 +1,4 @@
-# ODTxKKU Workshop (2024-12-21)
+# ODTxKKU Workshop (2024-12-21) by The13OS5
 ## Git command line 
 
 ### Benefits
@@ -17,6 +17,11 @@
 - check current remote origin: `git remote -v`
 - check status of commit: `git status`
 - check commits: `git log`
+- check branch: `git branch`
+    - create: `<branch name>`
+- change branch: `git checkout`
+- switch branch: `git switch`
+- fetch: `git fetch`
 - unstage add files: `git rm --cached <files name>`
 - un-commit : `git reset <options> HEAD~<number of commit >`
     - hard: unchange files
@@ -24,4 +29,6 @@
     - soft: before add stage
 - go to commit: `git checkout <commit hash | id>`
 - view change: `git diff <--cached> <file name>`
-# 
+
+### When conflicts
+- Use stash (stack): `git stash` and `git stash pop`
