@@ -10,10 +10,15 @@
 - `git init`
 - `git remote add origin <git_repository_url>`
 - `git add <. or files name>`
+- `git commit -m <commit message>` add commit to local repository
 
 ### Never knew CMD
 - check current remote origin: `git remote -v`
 - check status of commit: `git status`
-- unstage commit: `git rm --cached <files name>`
-
+- check commits: `git log`
+- unstage add files: `git rm --cached <files name>`
+- un-commit : `git reset <options> HEAD~<number of commit >`
+    - hard: unchange files
+    - mixed(default): add stage
+    - soft: before add stage
 # 
