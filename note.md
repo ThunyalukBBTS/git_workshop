@@ -11,6 +11,7 @@
 - `git remote add origin <git_repository_url>`
 - `git add <. or files name>`
 - `git commit -m <commit message>` add commit to local repository
+- `git push <-u : remember branch name> <remote name> <branch name>`
 
 ### Never knew CMD
 - check current remote origin: `git remote -v`
@@ -21,4 +22,6 @@
     - hard: unchange files
     - mixed(default): add stage
     - soft: before add stage
+- go to commit: `git checkout <commit hash | id>`
+- view change: `git diff <--cached> <file name>`
 # 
